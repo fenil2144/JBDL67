@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/minorproject1_jbdl67?createDatabaseIfNotExist=true
+    username: root
+    password: root1234
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9000
+
+custom_property:
+  secret_key: fhcj1434
+
+book:
+  return:
+    due_date: 14
+
