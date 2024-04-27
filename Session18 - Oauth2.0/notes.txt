@@ -1,0 +1,19 @@
+1) Spring Security - In Memory  Details
+2) Spring Security - User Details Service
+(Authentication + Authorization)
+
+3) OAuth 2.0 - way of security where the end user will be authenticating using a third party service(google,linkedin,facebook, instagram,github) and the application will be handling the authorization part only.
+
+OAuth2.0 Access can be revoked in 2 ways:
+1) End User revoking the access from provider(github)- user may not want to share data with OAuth2.0 client(geeksforgeeks)
+2) Oauth 2.0 application admin revoking the access - may be client has made some changes in policy/scope and want the users to reauthorize
+
+1) clicking Hyper Link: http://localhost:8080/oauth2/authorization/github
+2) Step 1 redirected to https://github.com/login/oauth/authorize?response_type=code&client_id=f6b62e46ac035e8b199c&scope=read:discussion&state=ksgNMUXYacuz7-gR1DRMYxoWSqBZQmsn2aI4iHplTF4%3D&redirect_uri=http://localhost:8080/login/oauth2/code/github
+3) Once the end user authorizes OAuth2.0 Client to use their resources on github, then following call is made by github's FE: https://github.com/login/oauth/authorize
+4) after step 3, github will redirected to http://localhost:8080/login/oauth2/code/github?code=9f8683806d96cf36b6f9&state=qXU2KI7_SsVeckmOUMlwzrSD6ei56y2RXFnSe1TEmwY%3D 
+   which is our authorisation callback url
+5) Authorisation Call back Url redirects to our homepage url: http://localhost:8080/
+
+Spring.io Tutorial: https://spring.io/guides/tutorials/spring-boot-oauth2/
+OAuth Scopes: https://docs.github.com/en/apps/building-integrations/setting-up-and-registering-oauth-apps/about-scopes-for-oauth-apps
