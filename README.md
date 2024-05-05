@@ -1,14 +1,17 @@
 # JBDL67
 
+Docker slides : https://docs.google.com/presentation/d/1w4UCwwvQJw9vQe1ssCUPP55TblGOl3WhWrS1Q30kODw/edit#
+
 Assignments
 
 1. Basic core Java - https://docs.google.com/document/d/1YMig3AVLglOgQVWFmt93ZtdvndiRRfowexAmPpUGeP0/edit
-2. Streams and Lambdas - https://docs.google.com/document/d/1AAlORAmRz-m_aaviZ_k4DgbbbLNzlrn3mV8ayaxgKOg/edit
+2. DS Algo in Java - https://docs.google.com/document/d/1gUQSdwxdw6f4DJRO0W92tziih86tTt06fWl7L-V852g/edit
+3. Streams and Lambdas - https://docs.google.com/document/d/1AAlORAmRz-m_aaviZ_k4DgbbbLNzlrn3mV8ayaxgKOg/edit
 
 Assignment Solution
-
 1. Basic core java - https://docs.google.com/document/d/166Zv24JnGhzYvCQN1ND5M2aOahE1B0yoaLwh7ogawco/edit?usp=sharing
-2. Streams and lambdas - https://drive.google.com/file/d/17JxrPOt0JzIyb-JoVoMAuCu1U773iff0/view?usp=sharing
+2. DS Algo in Java - https://github.com/piyush5807/JBDL-33/tree/master/DS%20Algo%20Assignment/src/com/example
+3. Streams and lambdas - https://drive.google.com/file/d/17JxrPOt0JzIyb-JoVoMAuCu1U773iff0/view?usp=sharing
 
 Quizes
 1. Streams - https://forms.gle/nenVZ2AdqGpdSzid6
@@ -19,7 +22,6 @@ Quizes
 Lecture Wise Notes: https://drive.google.com/drive/folders/1rOtQ8mCv4qWtGBwIvxo2UkArlZnASgEa
 
 Java
-
 1. Download - https://www.oracle.com/in/java/technologies/javase-downloads.html
 2. Resources - https://www.baeldung.com/ , https://www.youtube.com/channel/UCYt1sfh5464XaDBH0oH_o7Q
 
@@ -32,7 +34,14 @@ Maven
 2. Resources - https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 Spring Basics
-1. Resources - https://www.baeldung.com/ , https://docs.spring.io/spring-framework/docs/current/reference/html/
+1. Resources - https://www.baeldung.com/
+2. https://docs.spring.io/spring-framework/docs/current/reference/html/
+3. https://www.callicoder.com/categories/java/
+4. https://dzone.com/
+
+Rest Maturity Levels:
+1. https://martinfowler.com/articles/richardsonMaturityModel.html
+2. https://restfulapi.net/richardson-maturity-model/
 
 MySQL
 1. Download - https://www.mysql.com/downloads/
@@ -45,9 +54,8 @@ MongoDB
 Redis
 1. Download - https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100 (windows) , https://redis.io/download
 2. Resources - https://redis.io/
-
-1. Redis labs / Redis on cloud : https://app.redislabs.com/
-2. Redis university: https://university.redis.com/
+3. Redis labs/ Redis on cloud : https://app.redislabs.com/
+4. Redis university: https://university.redis.com/
 
 Kafka
 1. Download - https://kafka.apache.org/downloads
@@ -55,7 +63,8 @@ Kafka
 
 
 Miscellaneous links
-1. Multi Threading: https://www.baeldung.com/java-concurrency
-2. Streams + Lambdas: https://link.medium.com/pwFwKG1Grqb, https://link.medium.com/1tyR6i3Grqb, https://www.youtube.com/watch?v=1OpAgZvYXLQ, https://www.youtube.com/watch?v=F73kB4XZQ4I
-3. Spring Boot: https://www.marcobehler.com/guides/spring-framework
-4. Docker slides : https://docs.google.com/presentation/d/1w4UCwwvQJw9vQe1ssCUPP55TblGOl3WhWrS1Q30kODw/edit#
+1. Multi Threading - https://www.baeldung.com/java-concurrency
+2. Streams + Lambdas - https://link.medium.com/pwFwKG1Grqb, https://link.medium.com/1tyR6i3Grqb, https://www.youtube.com/watch?v=1OpAgZvYXLQ, https://www.youtube.com/watch?v=F73kB4XZQ4I
+3. OAuth 2.0: https://spring.io/guides/tutorials/spring-boot-oauth2/
+4. Feign Client: https://cloud.spring.io/spring-cloud-static/spring-cloud-openfeign/2.2.0.RC2/reference/html/
+5. Spring Cloud Circuit Breaker - https://spring.io/projects/spring-cloud-circuitbreaker
